@@ -1,0 +1,14 @@
+# macOS Files
+.DS_Store
+# Other
+node_modules/
+logs/
+
+# Hugo
+/public/
+/resources/_gen/
+hugo.exe
+hugo.linux
+hugo.darwin
+dist
+tmp

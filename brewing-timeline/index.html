@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+  background: #009578;
+}
+
+.timeline {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: "Fira Sans", sans-serif;
+  color: #ffffff;
+}
+h1, h3, h2 {
+text-align: center;
+  margin: 0 auto;
+  font-family: "Fira Sans", sans-serif;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.timeline__component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline__component--bg {
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* LEAVE TILL LAST */
+.timeline__component--bottom {
+  margin-bottom: 0;
+}
+
+.timeline__middle {
+  position: relative;
+  background: #ffffff;
+}
+
+.timeline__point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+/* LEAVE TILL LAST */
+.timeline__point--bottom {
+  top: initial;
+  bottom: 0;
+}
+
+.timeline__date--right {
+  text-align: right;
+}
+
+.timeline__title {
+  margin: 0;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.timeline__paragraph {
+  line-height: 1.5;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.col-{*} {
+
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>Timeline of Events in the History of Brewing</h1>
+  <h3 style="margin-bottom: 25px;">Scott Hutchison</h3>
+
+  <div class="wrapper">
+
+  <div class="col-1">
+
+    <h2>Prehistory (to 600 BCE)</h2>
+  
+    <div class="timeline">
+  
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">3500-4000 BCE</div>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          Evidence of beer found in ceramic vessels at Godin Tepe (modern day Iran) and other sites around Sumer. Some say beer brewing at this locatin could be as early as 10,000 BCE. <a href="https://www.worldhistory.org/article/223/beer-in-the-ancient-world/" target="_blank">Citation</a>
+  
+        </p>
+      </div>
+  
+  
+      <div class="timeline__component timeline__component--bottom timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          The Sumerian poem Hymn to Ninkasi is a song of praise to the goddess of beer, Ninkasi. The poem also details the process of making beer. Beer at this time was brewed with barley bread cakes.
+        </p>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+      <div class="timeline__component">
+        <div class="timeline__date">1800 BCE</div>
+      </div>
+  
+  
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">3000 BCE</div>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+        <div class="timeline__point timeline__point--bottom"></div>
+      </div>
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          <a href="https://www.aljazeera.com/news/2021/2/14/egypt-unearths-worlds-oldest-mass-production-brewery" target="_blank"></a>Brewery discovered in Egypt dating back to era of King Narmer ( 3150 BCE). The vessels were discovered in rows suggesting the area was purpose built for brewing beer.
+          <img src="000_92X6RN.webp" width="400" title="Image of ancient eqyptian brewery" />
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-2">
+  
+    <h2>Classical Era (600 B.C.-A.D. 476)</h2>
+  
+    <div class="timeline">
+  
+  
+      <div class="timeline__component timeline__component--bottom timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          Germans were brewing beer (which they called ol, for `ale') as early as 800 BCE. Great quantities of beer jugs, still containing evidence of the beer, were found in a tomb in the Village of Kasendorf in northern Bavaria, near Kulmbach.
+        </p>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+      <div class="timeline__component">
+        <div class="timeline__date">600 BCE</div>
+      </div>
+  
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">320 BCE</div>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+        <div class="timeline__point timeline__point--bottom"></div>
+      </div>
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          In India, the empire of the Maurya dynasty controls almost the entire Indian subcontinent. A Treatise on Politics and Economics written between the years 50 and 125 details the production and consumption of fermented beverages, especially beer. Beer production becomes a sources of tax and duties.
+        </p>
+      </div>
+
+      <div class="timeline__component timeline__component--bottom timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          Excavations of a Roman military encampment on the Danube have unearthed evidence of beer brewing on a significant scale shortly after the community was built by Marcus Aurelius. 
+        </p>
+      </div>
+
+      <div class="timeline__middle">
+        <div class="timeline__point timeline__point--bottom"></div>
+      </div>
+      <div class="timeline__component">
+        <div class="timeline__date">179 CE</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+  
+    <h2>The Middle Ages (A.D. 476 -A.D. 1450)</h2>
+  
+    <div class="timeline">
+  
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">700 CE</div>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          Hops first documented use was in the 8th century when Benedictine monks used them for brewing in a Bavarian abbey outside of Munich, Germany. Before hops, beer was flavored and preserved with gruit, a combination of heather, mugwort and other locally grown herbs and spices.  <a href="https://www.smithsonianmag.com/science-nature/science-and-history-hops-180960846/" target="_blank">Citation</a>
+  
+        </p>
+      </div>
+  
+  
+      <div class="timeline__component timeline__component--bottom timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          Since 1040, beer has been brewed on the Weihenstephan Hill in Freising. Weihenstephan are the world's oldest brewery. <a href="https://www.weihenstephaner.de/en/" target="_blank">Link</a>
+          <img src="weihenstephaner_logo_en.png" width="400" />
+        </p>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+      <div class="timeline__component">
+        <div class="timeline__date">1040 CE</div>
+      </div>
+  
+  
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">1200 BCE</div>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+        <div class="timeline__point timeline__point--bottom"></div>
+      </div>
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          Brewers in Bremen, Germany discovered exactly how many hops to add to keep beer shelf-stable for six months. These brews, which didn’t spoil as quickly, were then being shipped all over Europe.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+  
+    <h2>Early Modern Era (A.D. 1450-A.D. 1750)</h2>
+  
+    <div class="timeline">
+  
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">1516</div>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          Reinheitsgeobot is established in Germany. Only Barley, Hops and Water are permitted in the production of beer. Interestingly, yeast is not mentioned.
+          <img src="reinheit.jpg" width="400" />
+        </p>
+      </div>
+  
+  
+      <div class="timeline__component timeline__component--bottom timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          In the seventeenth century, a Dutch tradesman named Antonie van Leeuwenhoek developed high-quality lenses and was able to observe yeast for the first time. Leeuwenhoek used his lenses to observe and record detailed drawings of protozoa, bacteria, and yeast. Leeuwenhoek discovered that yeast consist of globules floating in a fluid, but he thought they were merely the starchy particles of the grain.
+        </p>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+      <div class="timeline__component">
+        <div class="timeline__date">1600s </div>
+      </div>
+  
+  
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">1740s</div>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+        <div class="timeline__point timeline__point--bottom"></div>
+      </div>
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          Michael Combrune, a brewer who lived in the London metropolis between 1740 and 1750, is usually considered to be the promoter of the brewery thermometer for Great Britain. His Essay on Brewing of 1758 is the first known text recommending the use of thermometers to brewers. <a href="https://beer-studies.com/en/world-history/Brewery-scientific-age/Thermometer-malting-brewing" target="_blank">Citation</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-5">
+  
+    <h2>Modern Era (A.D. 1750-Present)</h2>
+  
+    <div class="timeline">
+  
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">1857</div>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+           Louis Pasteur was the first to demonstrate experimentally that fermented beverages result from the action of living yeast transforming glucose into ethanol. He called the fermentation process, respiration without air. Pasteur also showed that there are two types of fermentation: alcoholic and lactic acid. Alcoholic fermentation occurs by the action of yeast; lactic acid fermentation, by the action of bacteria.  <a href="https://www.nature.com/scitable/topicpage/yeast-fermentation-and-the-making-of-beer-14372813/" target="_blank">Citation</a>
+          <img src="yeast-cell.jpg" width="400" />
+  
+        </p>
+      </div>
+  
+  
+      <div class="timeline__component timeline__component--bottom timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          Attempts to legislate an, “American Reinheitsgebot.” Leading up to and during this period, brewers used rice and corn adjuncts in the production of clean, clear lagers suitable for drinking cold. The American palate had grown accustomed to this style of beer. Attempts by lobbyists to profit off of the dispute, were revealed and the bill was never passed. <a href="https://www.mbaa.com/publications/tq/tqPastIssues/2020/openaccess/TQ-57-1-0126-01.pdf" target="_blank">Citation</a>
+        </p>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+      </div>
+      <div class="timeline__component">
+        <div class="timeline__date">1870's-1910</div>
+      </div>
+  
+  
+      <div class="timeline__component">
+        <div class="timeline__date timeline__date--right">1978</div>
+      </div>
+      <div class="timeline__middle">
+        <div class="timeline__point"></div>
+        <div class="timeline__point timeline__point--bottom"></div>
+      </div>
+      <div class="timeline__component timeline__component--bg">
+        <h2 class="timeline__title"></h2>
+        <p class="timeline__paragraph">
+          President Jimmy Carter signed into law the right for home brewers to make their own beer. October 14 is the anniversary of the day that homebrewing beer without federal taxation was made possible in the United States. The legalizatin of home brewing exposed many hobbyists to brewing and likely contributed to the growth of the craft beer industry we see today. <a href="https://content.kegworks.com/blog/how-jimmy-carter-sparked-the-craft-beer-revolution" target="_blank">Citation</a>
+          <img src="relax.jpg" width="400" />
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
